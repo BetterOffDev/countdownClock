@@ -14,7 +14,7 @@ The client is responsible for adding to the holidays array, which is just a list
 If you aren't seeing the clock in the display, that means the business is closed! If you see the clock, it will update every minute to reflect the amount of time left.
 
 ## Demo
-( [See it in action!](http://willspencerdesign.com/countdownClock) )
+[See it in action!](http://willspencerdesign.com/countdownClock)
 
 It's also on CodePen....woo hoo!
-( [CodePen](http://codepen.io/BetterOffDev/pen/JdrPYe) )
+[CodePen](http://codepen.io/BetterOffDev/pen/JdrPYe)
