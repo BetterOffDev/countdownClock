@@ -155,6 +155,7 @@ var initClock = function() {
 	// 4. if it's a holiday OR it's a closed day, don't display the clock
 	if ( isHoliday || !isOpenDay || isClosed ) {
 		document.getElementById("countdownClock").style.display = "none";
+		document.getElementById("closed").style.display = "block";
 	}
 
 	// 5. Set whether minutes/minute and hours/hours is displayed
@@ -192,6 +193,7 @@ setInterval(function() {
 
 	if ( isHoliday || !isOpenDay || initVariables.currentESTCloseTime < initVariables.currentESTTime ) {
 		document.getElementById("countdownClock").style.display = "none";
+		document.getElementById("closed").style.display = "block";
 	}
 
 	var currentMin = document.getElementById("clockMinutes").innerHTML;
